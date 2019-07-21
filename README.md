@@ -1,14 +1,14 @@
 ## Sending and receiving message
 Setup the header `Authorization` with value `key=<your_server_key>` in the project settings `Setting->Cloud Messaging->server key` 
 
-![]({{site.baseurl}}/tutorial/1.jpg)
+![](https://i.ibb.co/QjfjFpG/1.jpg)
 
 and use this for request body
 ```
 {
 	"notification": {
-	    "title": "OnSmart Apps",
-	    "body": "The device has been submitted",
+	    "title": "My push notif",
+	    "body": "Hallo, This is my firt push notif",
 	    "icon": "./icon.png",
 	    "click_action": "http://localhost:3000"
 	},
